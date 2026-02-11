@@ -4,9 +4,9 @@ This repository contains the frontend implementation of a deep learning-based lu
 
 The system classifies histopathological image patches into three clinically significant categories:
 
-## Benign Lung Tissue
-Lung Adenocarcinoma (LUAD)
-Lung Squamous Cell Carcinoma (LUSC)
+### Benign Lung Tissue
+### Lung Adenocarcinoma (LUAD)
+### Lung Squamous Cell Carcinoma (LUSC)
 
 The project is based on my undergraduate thesis research titled “Hybrid CNN–Liquid Neural Network Architecture for Multi-Class Cancer Histopathology Image Classification.”
 
