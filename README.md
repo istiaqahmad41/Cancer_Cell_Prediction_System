@@ -3,7 +3,8 @@
 This repository contains the frontend implementation of a deep learning-based lung cancer histopathology classification system built on a Hybrid Convolutional Neural Network–Liquid Neural Network (CNN–LNN) architecture.
 
 The system classifies histopathological image patches into three clinically significant categories:
-Benign Lung Tissue
+
+## Benign Lung Tissue
 Lung Adenocarcinoma (LUAD)
 Lung Squamous Cell Carcinoma (LUSC)
 
