@@ -54,13 +54,19 @@ Model Performance (Best Experimental Configuration)
 
 Using the ResNet50 backbone within the CNN–LNN framework, the model achieved:
 
-# Validation Accuracy: 99.93%
-
-# AUC: 1.00 for all classes
+Validation Accuracy: 99.93%
+AUC: 1.00 for all classes
 
 Across experiments, the benign class was consistently classified with near-perfect performance. The primary source of confusion occurred between LUAD and LUSC, which is expected due to morphological similarities at the patch level.
 
 # Frontend: Hugging Face
+## Frontend UI
+
+### Home / Upload Screen
+![Upload Screen](ui-home.png)
+
+### Prediction Result Screen
+![Prediction Result](ui-result.png)
 
 # Motivation
 
