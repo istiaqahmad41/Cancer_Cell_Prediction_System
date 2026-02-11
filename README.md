@@ -72,10 +72,7 @@ Histopathological cancer diagnosis requires expert interpretation and is both ti
 
 # Future Improvements
 
-Integration with whole-slide image classification
-
-Cross-validation and multi-run statistical evaluation
-
-External dataset validation for improved generalization
-
-Cloud deployment for scalable real-time inference
+#### Integration with whole-slide image classification
+#### Cross-validation and multi-run statistical evaluation
+#### External dataset validation for improved generalization
+#### Cloud deployment for scalable real-time inference
