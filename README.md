@@ -20,19 +20,19 @@ Frontend Responsibilities
 
 The frontend provides the following functionality:
 
-Image upload interface for histopathological patches
+### Image upload interface for histopathological patches
 
-Integration with the trained CNN–LNN backend model
+#### Integration with the trained CNN–LNN backend model
 
-Display of predicted class labels and associated probabilities
+### Display of predicted class labels and associated probabilities
 
-Visualization of Grad-CAM++ heatmaps for interpretability
+### Visualization of Grad-CAM++ heatmaps for interpretability
 
-Presentation of evaluation metrics such as accuracy, precision, recall, and F1-score
+### Presentation of evaluation metrics such as accuracy, precision, recall, and F1-score
 
-Display of confusion matrices and ROC curve summaries
+### Display of confusion matrices and ROC curve summaries
 
-The interface is designed to be clean, intuitive, and suitable for research demonstration, academic presentation, and potential future clinical decision-support integration.
+### The interface is designed to be clean, intuitive, and suitable for research demonstration, academic presentation, and potential future clinical decision-support integration.
 
 # System Architecture (Backend Summary)
 
