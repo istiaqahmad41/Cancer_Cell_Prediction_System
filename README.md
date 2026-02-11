@@ -38,22 +38,22 @@ The frontend provides the following functionality:
 
 The backend model integrates:
 
-Pre-trained CNN backbones (EfficientNet-B0, DenseNet121, ResNet50) for hierarchical spatial feature extraction
+#### Pre-trained CNN backbones (EfficientNet-B0, DenseNet121, ResNet50) for hierarchical spatial feature extraction
 
-A Liquid Neural Network (LNN) module for adaptive dynamic feature refinement
+#### A Liquid Neural Network (LNN) module for adaptive dynamic feature refinement
 
-A fully connected classification layer with Softmax activation for multi-class prediction
+#### A fully connected classification layer with Softmax activation for multi-class prediction
 
-Grad-CAM++ for explainable AI-based visualization
+#### Grad-CAM++ for explainable AI-based visualization
 
-The frontend communicates with the backend inference pipeline to deliver real-time predictions and visual explanations.
+#### The frontend communicates with the backend inference pipeline to deliver real-time predictions and visual explanations.
 
-Model Performance (Best Experimental Configuration)
+#### Model Performance (Best Experimental Configuration)
 
-Using the ResNet50 backbone within the CNN–LNN framework, the model achieved:
+#### Using the ResNet50 backbone within the CNN–LNN framework, the model achieved:
 
-Validation Accuracy: 99.93%
-AUC: 1.00 for all classes
+#### Validation Accuracy: 99.93%
+#### AUC: 1.00 for all classes
 
 Across experiments, the benign class was consistently classified with near-perfect performance. The primary source of confusion occurred between LUAD and LUSC, which is expected due to morphological similarities at the patch level.
 
